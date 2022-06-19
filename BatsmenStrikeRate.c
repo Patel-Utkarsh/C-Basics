@@ -2,10 +2,15 @@
 
 int main()
 {
-    int a, b;
+    float a, b;
     float st_rate;
     printf("Enter Number of Runs and balls: ");
-    scanf("%d %d", &a, &b);
+    scanf("%f %f", &a, &b);
+    a = (int)a;
+    b = (int)b;
+    
+    
+    
     st_rate = (a / b) * 100;
     
 
