@@ -2,16 +2,14 @@
 
 int main()
 {
-    float a, b;
+    int a, b;
     float st_rate;
     printf("Enter Number of Runs and balls: ");
-    scanf("%f %f", &a, &b);
+    scanf("%d %d", &a, &b);
     st_rate = (a / b) * 100;
-    if (a == [0-9]+"."[0-9] ) {
-        printf("eww");
-    }
+    
 
-    else if (a < 0 || b < 0)
+    if (a < 0 || b < 0)
     {
         printf("Invalid Input");
     }
