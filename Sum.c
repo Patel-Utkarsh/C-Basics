@@ -16,6 +16,6 @@ int main()
 
     else
     {
-        printf("A must be greater than B");
+        printf("A must be smaller than B");
     }
 }
